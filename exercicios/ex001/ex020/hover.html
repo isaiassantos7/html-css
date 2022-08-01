@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            
+        }
+        
+        div:hover {
+            color: red;
+            
+        }
+        
+        #n1 {
+            color: rgb(223, 13, 13);
+            text-align: center;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 3em;
+        }
+
+        .destaque {
+            color: blue;
+        }
+
+        .especial {
+            color: blueviolet;
+        }
+
+        .link:hover {
+           color: rgb(219, 26, 26);
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...
+            
+        </p>
+    </div>
+    <h1 id="n1">01 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure pariatur tempora unde eum provident quis a sint sed itaque ullam libero cupiditate asperiores accusamus, quam fuga, corrupti, animi dolore nulla?</h1>
+    <p class="destaque">02 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nisi dolor eligendi commodi ab, repellendus vel totam quaerat dolorem laborum sapiente deleniti veniam culpa exercitationem quo minus inventore, maiores voluptatibus!</p>
+    <p class="especial">03
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet nulla impedit! Et facere soluta quaerat sit, quis earum eum voluptates beatae, consectetur totam aut suscipit, itaque quisquam temporibus nobis?
+    </p>
+    <p class="link" >
+        mudar de cor
+        
+    </p>
+</body>
+</html>

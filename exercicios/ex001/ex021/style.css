@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+
+}
+
+header {
+    background-color: rgba(184, 207, 188, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+nav {
+    background-color: rgb(94, 94, 94);
+    padding: 3px;
+    box-shadow: 1px 1px 1px black;
+}
+
+nav>a {
+    text-decoration: none;
+    color: rgb(241, 239, 239);
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    color: yellow;
+
+
+}
+
+main {
+    background-color: rgba(85, 221, 157, 0.418);
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgba(22, 102, 6, 0.603);
+    color: antiquewhite;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+article {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: rgb(240, 232, 232);
+}
+
