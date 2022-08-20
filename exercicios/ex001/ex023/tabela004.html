@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        table {
+            margin: auto;
+            text-align: center;
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+   
+
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: rgba(179, 194, 196, 0.473);
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <caption>
+            Filmes Favoritos
+        </caption>
+
+        <thead>
+            
+            <tr>
+                <th scope="col">grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
+        
+        <tbody>
+            
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+                
+            <tr>
+                <td>Beatriz Sousa</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+                
+            <tr>
+                <td>Claudia</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Batman</td>
+            </tr>
+
+        
+
+       
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Bruno</td>
+                <td>Super-Man</td>
+                <td>Panico</td>
+                <td>Interestelar</td>
+            </tr>
+
+            <tr>
+                <td>Luiz</td>
+                <td>Rambo</td>
+                <td>ProjetoX</td>
+                <td>Ratatouille</td>
+            </tr>
+
+            <tr>
+                <td>Otávio</td>
+                <td>Interestalar</td>
+                <td>El Camino</td>
+                <td>Tropa de Elite</td>
+            </tr>
+        </tbody>
+
+
+
+
+
+    </table>
+    
+</body>
+</html>
