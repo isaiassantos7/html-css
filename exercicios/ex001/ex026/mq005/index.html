@@ -5,36 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        <h1>Meu Site</h1>
+        <h1>Curiosidades do Futebol</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="icones">
             <ul>
-                <li><a href="">Opção 1</a></li>
-                <li><a href="">Opção 2</a></li>
-                <li><a href="">Opção 3</a></li>
-                <li><a href="">Opção 4</a></li>
-                <li><a href="">Opçao 5</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="index.html" rel="prev">Real Madrid</a></li>
+                <li><a href="liverpool.html" relf="next">Liverpool</a></li>
+                <li><a href="bvb.html">Borussia D.</a></li>
+                
             </ul>
         </menu>
     </header>
-
-  
-    
-
-        
-
     <main>
         <article>
-            <h1>Testando Media Query</h1> 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit consequatur ipsa autem tempore nihil unde neque, totam a cumque architecto? Provident, esse reprehenderit quaerat hic in reiciendis nesciunt natus sit.
-            Lorem ipsum, dolor sit amet consectetur adipisicingelit. Doloribus adipisci perspiciatis consequunturvero, iure voluptate quisquam officia rerum explicaboveritatis enim, facilis unde amet quam sapiente eos.Sequi, quasi molestiae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, veritatis. Sint vero exercitationem nostrum odit corrupti minus aliquid non voluptas dicta id sequi alias, esse quidem quo possimus sunt aperiam?
+            <h1> A Grandeza do Real Madrid</h1> 
+            <p>
+                Eleito pela Fifa como maior clube do século 20. Entre as conquistas, o clube detém soberanos 35 títulos da La Liga, 14 títulos europeus da Taça dos Clubes Campeões Europeus/Liga dos Campeões da UEFA sendo o maior campeão do torneio, 3 títulos da Copa Intercontinental e 3 títulos da Copa do Mundo de Clubes da FIFA.
             </p>
+
+            <div class="foto" ><img src="../imagens/real-madrid.jpg" alt="Real Madrid"></div> <br>
            
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet saepe ipsum totam, alias temporibus qui enim dicta. Sit perferendis voluptate possimus consectetur cum animi, necessitatibus ipsum dicta velit exercitationem.
@@ -48,8 +44,18 @@
             </p>
         </article>
     </main>
-    
+
     <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                icones.style.display = 'block'
+            } else {
+                icones.style.display = 'none'
+            }
+                
+        }
+
         function clickMenu() {
             if (icones.style.display == 'block') {
                icones.style.display = 'none'     
@@ -58,6 +64,12 @@
             }
         }
     </script>
+  
+    
+
+        
+
+    
                
 
 

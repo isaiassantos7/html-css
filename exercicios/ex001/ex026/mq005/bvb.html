@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BVB</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/B.css">
+    <link rel="stylesheet" href="estilos/bvb.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Curiosidades do Futebol</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="icones">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="index.html" rel="prev">Real Madrid</a></li>
+                <li><a href="liverpool.html" relf="next">Liverpool</a></li>
+                <li><a href="bvb.html">Borussia D.</a></li>
+               
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1> Borussia Dortmund a Muralha Amarela</h1> 
+            <p>
+                O clube foi fundado em 1909 por dezoito jogadores de futebol de Dortmund, o departamento de futebol faz parte de um grande clube esportivo com mais de 145.000 membros, o que faz do BVB o segundo maior clube esportivo da Alemanha.
+            </p>
+            <p>
+                O Borussia Dortmund venceu oito campeonatos alemães, sete DFB-Pokals, seis DFL-Supercups, uma Liga dos Campeões, uma Taça dos Clubes Vencedores de Taças e uma Copa Intercontinental. A conquista da Taça dos Clubes Vencedores de Taças em 1966 fez deles o primeiro clube alemão a conquistar um título europeu.
+            </p>
+
+            <div class="foto" ><img src="../imagens/BVB.jpg" alt="Real Madrid"></div> <br>
+           
+            <p>
+            <h3> Em 2021 bomba é encontrada perto do estádio do Borussia Dortmund</h3> <br>    
+                A bomba pesava cerca de 250kg e foi fabricada na época da Segunda Guerra Mundial. Apesar de ser antiga, ela poderia causar um acidente drástico e, por isso, tinha que ser removida com segurança pelos profissionais.
+
+                "O Signal Iduna Park teve que ser evacuado por causa de uma necessária eliminação de bomba no estádio Rote Erde", informou um diretor do Dortmund, Christian Hockenjos, à agência SID. De acordo com a imprensa local, o material foi desarmado com sucesso.
+
+                Apesar do susto, não é a primeira vez que um artefato do tipo é encontrado pelo Borussia Dormund. Em 2015, outra bomba da Segunda Guerra Mundial foi achada em uma área do clube. Daquela vez, estava na zona VIP da tribuna oeste do Signal Iduna Park, a uma profundidade de cinco metros.
+            </p>
+            
+        </article>
+    </main>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                icones.style.display = 'block'
+            } else {
+                icones.style.display = 'none'
+            }
+                
+        }
+
+        function clickMenu() {
+            if (icones.style.display == 'block') {
+               icones.style.display = 'none'     
+            } else {
+                icones.style.display = 'block'
+            }
+        }
+    </script>
+    
+</body>
+</html>

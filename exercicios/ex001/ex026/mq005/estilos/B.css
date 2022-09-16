@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-
-:root {
-    --cor0: #131426;
-    --cor1: #15BF81;
-    --cor2: #168C61;
-    --cor3: #F2295F;
-
-    
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -17,14 +7,14 @@
 }
 
 body, html {
-    background-color: whitesmoke
+    background-color: rgba(208, 192, 14, 0.911);
    
     
     
 }
 
 header {
-    background-color:#0b1253;
+    background-color: rgb(0, 0, 0);
     
    
 }
@@ -36,7 +26,7 @@ header > h1 {
 }
 
 #burguer {
-    background-color: #131426;
+    background-color: #000000;
     color: white;
     display: block;
     text-align: center;
@@ -93,7 +83,7 @@ article > h1 {
     border-radius: 5px;
     text-align: center;
     
-    background-color: #0b1253;
+    background-color: rgb(0, 0, 0);
     color: white;
     
 

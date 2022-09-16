@@ -1,0 +1,64 @@
+@charset "UTF";
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: rgba(208, 192, 14, 0.911);
+    }
+
+    header {
+        background-color: rgba(36, 17, 17, 0.623);
+    }
+    
+    #burguer {
+        display: none;
+    }
+    #icones {
+        display: block;
+        
+    }
+
+    #icones > ul > li {
+        display: inline-block;
+        
+    }
+
+    menu > ul > li > a {
+        background-color: rgba(0, 0, 0, 0.993);
+        color: rgb(245, 240, 240);
+    }
+
+
+    main {
+        width: 768px;
+    }
+
+    article, p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    article > h1 {
+        padding-bottom: 25px;
+        padding: 10px;
+        margin: 20px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 5px;
+        text-align: center;
+        
+        background-color: rgb(0, 0, 0);
+        color: white;
+        
+    
+    }
+
+    img {
+        width: 768px;
+    }
+
+        
+   
+        
+    
+}

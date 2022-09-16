@@ -1,15 +1,6 @@
 @charset "UTF-8";
 
 
-:root {
-    --cor0: #131426;
-    --cor1: #15BF81;
-    --cor2: #168C61;
-    --cor3: #F2295F;
-
-    
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -17,14 +8,14 @@
 }
 
 body, html {
-    background-color: whitesmoke
+    background-color: brown;
    
     
     
 }
 
 header {
-    background-color:#0b1253;
+    background-color: rgba(36, 17, 17, 0.623);
     
    
 }
@@ -36,7 +27,7 @@ header > h1 {
 }
 
 #burguer {
-    background-color: #131426;
+    background-color: #010102;
     color: white;
     display: block;
     text-align: center;
@@ -93,7 +84,7 @@ article > h1 {
     border-radius: 5px;
     text-align: center;
     
-    background-color: #0b1253;
+    background-color: brown;
     color: white;
     
 

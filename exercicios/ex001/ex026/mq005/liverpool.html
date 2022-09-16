@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilosl/style.css">
+    <link rel="stylesheet" href="estilos2/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Curiosidades do Futebol</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="icones">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="index.html">Real Madrid</a></li>
+                <li><a href="liverpool.html">Liverpool</a></li>
+                <li><a href="bvb.html">Borussia D.</a></li>
+               
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1> Liverpool The Reds</h1> 
+            <p>
+                O Liverpool Football Club, ou da forma reduzida L.F.C., é um clube de futebol, com sede na cidade de Liverpool, Noroeste da Inglaterra. Fundado em 1892, ingressou na Football League no ano seguinte e desde então atua no Anfield Road.
+            </p>
+
+            <div class="foto" ><img src="../imagens/Torcida-do-Liverpool.jpg" alt="Liverpool"></div> <br>
+           
+            <p>
+                Só nos anos 1970, a equipe conquistou cinco títulos europeus, sendo bicampeão da Champions League em 77 e 78. Além disso, o Liverpool ainda conquistou duas vezes a Europa League, em 1973 e 1976, e a Supercopa da Europa em 1977, quando empatou por 1 a 1 na Alemanha com o Hamburgo e aplicou 6 a 0 na volta, em Anfield.
+            </p>
+        </article>
+    </main>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                icones.style.display = 'block'
+            } else {
+                icones.style.display = 'none'
+            }
+                
+        }
+
+        function clickMenu() {
+            if (icones.style.display == 'block') {
+               icones.style.display = 'none'     
+            } else {
+                icones.style.display = 'block'
+            }
+        }
+    </script>
+    
+  
+</body>
+</html>
